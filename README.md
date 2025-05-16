@@ -6,8 +6,7 @@ Este repositório contém a **documentação oficial** do [`@sawabona/auth-kit`]
 
 ## 📘 Acesse a documentação
 
-👉 [docs.sawabonatech.com](https://docs.sawabonatech.com) _(link de exemplo para Vercel ou domínio próprio)_
-
+👉 [docs.sawabonatech.com](https://docs.sawabonatech.com)
 ---
 
 ## 📁 Estrutura
