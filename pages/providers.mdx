@@ -1,0 +1,14 @@
+# 🔐 Providers e adaptação de UI
+
+No AuthKit, a UI se adapta aos providers que você configurar:
+
+```ts
+providers: ["credentials", "google", "discord"]
+```
+
+### Resultado:
+
+- Se `credentials` estiver presente → mostra campos de email/senha
+- Se outros OAuth estiverem presentes → mostra botões "Entrar com X"
+
+Tudo isso é automático, sem precisar duplicar lógica.

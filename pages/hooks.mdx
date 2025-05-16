@@ -1,0 +1,22 @@
+# 🧠 Hooks
+
+## useLoginForm()
+
+- Responsável por integrar React Hook Form + NextAuth
+- Retorna `register`, `errors`, `onSubmit`, `authError`
+- Também retorna `hasCredentials` e `oauthProviders`
+
+## useRegisterForm()
+
+- Mesmo padrão do login, com `fetch` para o backend
+- Inclui campos como `name`, `email`, `password`
+
+## useRequireAuth()
+
+- Protege rotas com base no status da sessão
+- Pode ser usado em SSR ou Client Component
+
+## useThemeTokens()
+
+- Injeta dinamicamente as variáveis do `themeTokens` na raiz do DOM
+- Compatível com dark mode ou tokens customizados

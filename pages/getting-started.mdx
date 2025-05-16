@@ -8,20 +8,7 @@ pnpm add @sawabona/auth-kit
 
 ## Pré-requisitos
 
-- Next.js 13+ com App Router
+- Next.js 13+
 - React 18+
-- TailwindCSS + ShadCN
+- TailwindCSS configurado
 - NextAuth configurado no backend
-
-## Setup básico
-
-```tsx
-import { AuthProvider } from "@sawabona/auth-kit";
-
-<AuthProvider config={{
-  baseUrl: "https://api.suaapi.com",
-  providers: ["credentials"]
-}}>
-  <App />
-</AuthProvider>
-```
