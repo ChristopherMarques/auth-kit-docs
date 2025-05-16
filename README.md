@@ -6,7 +6,7 @@ Este repositório contém a **documentação oficial** do [`@sawabona/auth-kit`]
 
 ## 📘 Acesse a documentação
 
-👉 [docs.sawabonatech.com](https://docs.sawabonatech.com)
+👉 [docs.sawabona.tech](https://docs.sawabona.tech/)
 ---
 
 ## 📁 Estrutura
