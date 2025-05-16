@@ -1,0 +1,30 @@
+# ✅ Validações com Zod
+
+## Padrão de senha forte
+
+```ts
+z.string()
+  .min(8)
+  .regex(/[A-Z]/)
+  .regex(/[a-z]/)
+  .regex(/[0-9]/)
+  .regex(/[^A-Za-z0-9]/)
+```
+
+## Customização via config
+
+```tsx
+<AuthProvider config={{
+  validation: {
+    login: z.object({
+      email: z.string().email(),
+      password: z.string().min(1)
+    }),
+    register: z.object({
+      name: z.string().min(2),
+      email: z.string().email(),
+      password: z.string().min(10)
+    })
+  }
+}}>
+```

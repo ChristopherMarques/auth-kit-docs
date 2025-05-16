@@ -1,0 +1,34 @@
+# 🧩 Componentes
+
+## LoginPage
+
+```tsx
+import { LoginPage } from "@sawabona/auth-kit";
+
+export default function Login() {
+  return <LoginPage />;
+}
+```
+
+### Como funciona
+
+- Faz `signIn("credentials")` via NextAuth
+- Recebe config do `AuthProvider` para cores, redirecionamento e providers
+- Mostra mensagens de erro automaticamente
+- Suporta login via Google, GitHub, etc.
+
+## RegisterPage
+
+```tsx
+import { RegisterPage } from "@sawabona/auth-kit";
+
+export default function Register() {
+  return <RegisterPage />;
+}
+```
+
+### O que faz
+
+- Envia `POST` para `config.baseUrl + /auth/register`
+- Usa validação Zod customizável
+- Após sucesso, redireciona para `config.redirects.afterLogin`

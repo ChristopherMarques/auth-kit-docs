@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/getting-started": "pages/getting-started.js",
+  "/components": "pages/components.js",
+  "/configuration": "pages/configuration.js",
+  "/backend/supabase": "pages/backend/supabase.js",
+  "/validations": "pages/validations.js",
+  "/": "pages/index.js"
+}
